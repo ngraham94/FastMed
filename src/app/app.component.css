@@ -1,15 +1,24 @@
 .toolbar {
 	margin: 0px 0px 10px 0px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	background-color: #ff0000;
+	background-color: #ff4400;
 }
 
 .result-card {
 	margin: 0px 0px 20px 0px;
 }
 
+.mat-card-image {
+	height: 100px;
+    width: 100px;
+}
+
 md-card:hover {
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+md-card {
+	background-color: white;
 }
 
 .primary {
