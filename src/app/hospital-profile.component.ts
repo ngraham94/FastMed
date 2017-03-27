@@ -14,7 +14,7 @@ import { Hospital } from './hospital';
         		
         		<div class="col-xs-12 col-md-4">
         			<div class="info">
-        				<span>[{{hospital.score}}][Number of reviews][{{hospital.distance}} mi][{{address}}]</span>
+        				<span>[{{hospital.score}}][{{hospital.distance}} mi][{{hospital.address}}]</span>
         				<button class="submit" style="float: right">Fill out form</button>
         			</div>
         			<div class="info">
@@ -25,7 +25,7 @@ import { Hospital } from './hospital';
         				<div class="descr">{{hospital.description}}</div>
         			</div>
         			<div class="info">
-        				<span>Reviews</span>
+        				<span>Reviews [number of reviews]</span>
         			</div>
       			</div>
       		</div>
