@@ -6,13 +6,15 @@ import { MaterialModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { HospitalResultComponent } from './hospital-result.component';
 import { SearchSettingsComponent } from './search-and_settings.component';
+import { HospitalProfileComponent } from './hospital-profile.component';
 import 'hammerjs';
 
 @NgModule({
   declarations: [
     AppComponent,
     HospitalResultComponent,
-    SearchSettingsComponent
+    SearchSettingsComponent,
+    HospitalProfileComponent
   ],
   imports: [
     BrowserModule,
