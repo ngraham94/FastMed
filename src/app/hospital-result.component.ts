@@ -31,4 +31,5 @@ import {Component} from '@angular/core';
 	styleUrls: ['./app.component.css','./bootstrap/dist/css/bootstrap.css']
 })
 
-export class HospitalResultComponent {}
+export class HospitalResultComponent {
+}

@@ -8,21 +8,21 @@ import { Hospital } from './hospital';
 	<div style="padding-bottom:10px">
 		<div class="container-fluid profile">
     		<div class="row profile_content">
-      			<h2>Hospital Name</h2>
+      			<h2>{{hospital.name}}</h2>
         		
         		<img class="col-xs-12 col-md-8" src='http://emorywheel.com/wp-content/uploads/2015/06/emory-hospital-bs-1200xx4256-2394-0-219.jpg'>
         		
         		<div class="col-xs-12 col-md-4">
         			<div class="info">
-        				<span>[Score][Number of reviews][Distance][Location]</span>
+        				<span>[{{hospital.score}}][Number of reviews][{{hospital.distance}} mi][{{address}}]</span>
         				<button class="submit" style="float: right">Fill out form</button>
         			</div>
         			<div class="info">
-        				<span>[Phone number]</span>
+        				<span>[{{hospital.phone}}]</span>
         			</div>
         			<div class="info">
         				<span>Description</span>
-        				<div class="descr">blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</div>
+        				<div class="descr">{{hospital.description}}</div>
         			</div>
         			<div class="info">
         				<span>Reviews</span>
@@ -99,7 +99,7 @@ import { Hospital } from './hospital';
 })
 
 export class HospitalProfileComponent {
-	@Input() hospital: Hospital;
+	@Input() hospital: Hospital = new Hospital();
 
 	submit(): void {
 	}

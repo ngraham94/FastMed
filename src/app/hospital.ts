@@ -1,5 +1,5 @@
 export class Hospital {
-	name: string = "hospital name";
+	name: string = "Hospital name";
 	image: string = "http://emorywheel.com/wp-content/uploads/2015/06/emory-hospital-bs-1200xx4256-2394-0-219.jpg";
 	score: number = 0;
 	distance: number = 0;
